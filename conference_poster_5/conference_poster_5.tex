@@ -79,7 +79,7 @@ Website: \texttt{https://jmmaronge.github.io}
 
 %----------------------------------------------------------------------------------------
 
-\begin{multicols}{4} % This is how many columns your poster will be broken into, a poster with many figures may benefit from less columns whereas a text-heavy poster benefits from more
+\begin{multicols}{3} % This is how many columns your poster will be broken into, a poster with many figures may benefit from less columns whereas a text-heavy poster benefits from more
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT
@@ -100,11 +100,22 @@ We are interested in describing the information contained in local neighborhoods
 
 \section*{Introduction}
 
-Aliquam non lacus dolor, \textit{a aliquam quam} \cite{Smith:2012qr}. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla in nibh mauris. Donec vel ligula nisi, a lacinia arcu. Sed mi dui, malesuada vel consectetur et, egestas porta nisi. Sed eleifend pharetra dolor, et dapibus est vulputate eu. \textbf{Integer faucibus elementum felis vitae fringilla.} In hac habitasse platea dictumst. Duis tristique rutrum nisl, nec vulputate elit porta ut. Donec sodales sollicitudin turpis sed convallis. Etiam mauris ligula, blandit adipiscing condimentum eu, dapibus pellentesque risus.
+Every image can be vectorized. However, its meaning, interpretation, and complexity is encapsulated in the collection of all neighborhoods of all locations. More precisely, every image with $V$ voxels can be represented as a $V\times V$ matrix, where every row represents a location in the image and every column reprents a particular position in the neighborhood of that location; e.g., the first column could be the neighbor just above the location, the second column could be the neighbor to the left. Such  matrices are very large and store information inefficiently, but they provide a useful theoretical framework for representation of imaging information. Here we propose to exploit this theoretical framework to introduce simple methods to quantify the variation in multimodal images based on the shared information across local spatial neighborhoods and subjects.
 
-\textit{Aliquam auctor}, metus id ultrices porta, risus enim cursus sapien, quis iaculis sapien tortor sed odio. Mauris ante orci, euismod vitae tincidunt eu, porta ut neque. Aenean sapien est, viverra vel lacinia nec, venenatis eu nulla. Maecenas ut nunc nibh, et tempus libero. Aenean vitae risus ante. Pellentesque condimentum dui. Etiam sagittis purus non tellus tempor volutpat. Donec et dui non massa tristique adipiscing.
+\begin{align*}
+\begin{aligned}
+X_j = &(0.34, 0.58, -0.73, 1.74, -0.69, -1.34, 0.71, -1.87, -1.97,\\
+&0.11, 0.34, 0.53, 3.03, 0.48, 1.81, 0.50, 3.48, 3.89, \\
+&0.04, 0.19, -0.39, 5.28, -0.33, -2.43, 0.35, -6.50, -7.68,\\
+&0.01, 0.11, 0.28, 9.19, 0.23, 3.27, 0.25, 12.13, 15.16).
+\end{aligned}
+\end{align*}
 
-Phasellus imperdiet, tortor vitae congue bibendum, felis enim sagittis lorem, et volutpat ante orci sagittis mi. Morbi rutrum laoreet semper. Morbi accumsan enim nec tortor consectetur non commodo nisi sollicitudin. Proin sollicitudin. Pellentesque eget orci eros. Fusce ultricies, tellus et pellentesque fringilla, ante massa luctus libero, quis tristique \textbf{purus urna nec nibh}.
+\begin{center}\vspace{1cm}
+\includegraphics[width=1\linewidth]{ln_example_higherorder.pdf}
+\captionof{figure}{\color{Green} Figure caption}
+\end{center}\vspace{1cm}
+
 
 %----------------------------------------------------------------------------------------
 %	OBJECTIVES
@@ -115,14 +126,9 @@ Phasellus imperdiet, tortor vitae congue bibendum, felis enim sagittis lorem, et
 \section*{Main Objectives}
 
 \begin{enumerate}
-\item Lorem ipsum dolor sit amet, consectetur.
-\item Nullam at mi nisl. Vestibulum est purus, ultricies cursus volutpat sit amet, vestibulum eu.
-\item Praesent tortor libero, vulputate quis elementum a, iaculis.
-\item Phasellus a quam mauris, non varius mauris. Fusce tristique, enim tempor varius porta, elit purus commodo velit, pretium mattis ligula nisl nec ante.
-\item Ut adipiscing accumsan sapien, sit amet pretium.
-\item Estibulum est purus, ultricies cursus volutpat
-\item Nullam at mi nisl. Vestibulum est purus, ultricies cursus volutpat sit amet, vestibulum eu.
-\item Praesent tortor libero, vulputate quis elementum a, iaculis.
+\item  Decompose observed variability images at the population level
+\item Describe and quantify the main directions of variation
+\item Use these directions of variation to improve segmentation and studies of association with health outcomes.
 \end{enumerate}
 
 %----------------------------------------------------------------------------------------
