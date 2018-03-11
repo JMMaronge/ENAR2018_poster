@@ -94,7 +94,7 @@ Website: \texttt{https://jmmaronge.github.io}
 
 \color{black} % Navy color for the abstract
 
-\normalsize{\section*{\center{\color{uwred}Abstract}}}
+\normalsize{\section*{{\color{uwred}Abstract}}}
 \noindent We are interested in describing the information contained in local neighborhoods, and higher moments of local neighborhoods, of complex multimodal imaging techniques at the population level. This is problematic because of the size of medical imaging data. We propose a simple, computationally-efficient approach for representing the variation in multimodal images using the spatial information contained in all local neighborhoods across multiple subjects. This method achieves 3 goals: 1) decomposes the observed variability images at the population level; 2) describes and quantifies the main directions of variation; 3) uses these directions of variation to improve segmentation and studies of association with health outcomes. To achieve this, we efficiently decompose the observed variation in local neighborhood moments. In order to assess the quality of this method we show results using the 2015 Ischemic Stroke Lesion Segmentation (ISLES) Challenge.\vspace{.5cm}
 
 %----------------------------------------------------------------------------------------
@@ -119,8 +119,8 @@ Website: \texttt{https://jmmaronge.github.io}
 \end{center}\vspace{.5cm}
 \large{\section*{\color{uwred}Objectives}}
 \begin{enumerate}
-\item  Decompose observed variability images at the population level
-\item Describe and quantify the main directions of variation
+\item  Decompose observed variability images at the population level.
+\item Describe and quantify the main directions of variation.
 \item Use these directions of variation to improve segmentation and studies of association with health outcomes.
 \end{enumerate}
 
@@ -145,8 +145,8 @@ X_{ij} = &(0.34, 0.58, \ldots, -1.97, 0.11, \ldots, 3.89, 0.04, \ldots, -7.68, 0
 \begin{itemize}
 \item  Center and scale the columns of $\mathbf{X}$
 \item Perform PCA on centered and scaled matrix.
-\item Calculate principal component scores 
-\item Use principal component scores as predictors and expert manual segmentation as outcomes to train a model to perform segmentation
+\item Calculate principal component scores. 
+\item Use principal component scores as predictors and expert manual segmentation as outcome to train a model to perform segmentation.
 \end{itemize}
 \large{\section*{\color{uwred}Computational Issues}}
 \noindent Since the size of the matrix $\mathbf{X}$ is large, we need to decompose this matrix without loading it into memory. To overcome this challenge, we iteratively read in each subject and calculate sufficient statistics for the principal component analysis of the correlation matrix between the columns of $\mathbf{X}$. This is implemented in the R package MEDALS (Memory Efficient Decomposition for Analysis of Local neighborhood moments for Segmentation) and is available at https://github.com/JMMaronge/medals.
@@ -156,7 +156,7 @@ X_{ij} = &(0.34, 0.58, \ldots, -1.97, 0.11, \ldots, 3.89, 0.04, \ldots, -7.68, 0
 %----------------------------------------------------------------------------------------
 
 \large{\section*{\color{uwred}Results}}
-\noindent All data shown are from the 2015 ISLES SISS Challenge. Below we show partial ROC (pROC) curves for each subject, as well as overall training and overall testing results. We also show an example of how we performed on a particular subject.
+\noindent All data shown are from the 2015 ISLES SISS Challenge. Below we show partial ROC (pROC) curves for each subject, as well as overall training and overall testing results. We also show an example of how our method performed on a particular subject.
 
 \begin{center}\vspace{.5cm}
 \includegraphics[width=1\linewidth]{procbysubject.pdf}
@@ -172,7 +172,7 @@ X_{ij} = &(0.34, 0.58, \ldots, -1.97, 0.11, \ldots, 3.89, 0.04, \ldots, -7.68, 0
 \begin{itemize}
 \item  Carefully using information contained within neighborhoods allows for a richer insight of imaging data structures.
 \item Using local neighborhoods creates difficulties with storing the data, but these can be overcome by leveraging structure of the data.
-\item Characterizing variation in neighborhoods allows for interesting applications in studies of association with health outcomes 
+\item Characterizing variation in neighborhoods allows for interesting applications in studies of association with health outcomes. 
 \end{itemize}
 \end{multicols}
 \end{document}
