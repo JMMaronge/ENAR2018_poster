@@ -41,7 +41,8 @@
 \usepackage{color, amssymb, epsfig, graphicx, bm, amsmath, caption, subcaption, enumerate, graphicx, setspace,listings}
 \usepackage{titlesec}
 \usepackage{float}
-
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
 
 \definecolor{uwred}{RGB}{197, 5, 12}
 \definecolor{jhblue}{RGB}{0,38,73}
@@ -192,6 +193,13 @@ which is $P \times P$ in dimension instead of $N \times P$. We still need to cal
 \item Using local neighborhoods creates difficulties with storing the data, but these can be overcome by leveraging structure of the data.
 \item Characterizing variation in neighborhoods allows for interesting applications in studies of association with health outcomes. 
 \end{itemize}
+
+\small{\section*{\color{uwred}References}}
+
+
+\nocite{*} % Print all references regardless of whether they were cited in the poster or not
+\bibliographystyle{plain} % Plain referencing style
+\bibliography{poster.bib}
 
 
 \end{multicols}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.22)  19 MAR 2018 18:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.22)  19 MAR 2018 23:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -667,38 +667,42 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks34
 \@floatcapt=\box59
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2016/12/01 v2.2b e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count133
+)
 (./conference_poster_5.aux)
 \openout1 = `conference_poster_5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 52.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count133
+\scratchcounter=\count134
 \scratchdimen=\dimen157
 \scratchbox=\box60
-\nofMPsegments=\count134
-\nofMParguments=\count135
+\nofMPsegments=\count135
+\nofMParguments=\count136
 \everyMPshowfont=\toks35
-\MPscratchCnt=\count136
+\MPscratchCnt=\count137
 \MPscratchDim=\dimen158
-\MPnumerator=\count137
-\makeMPintoPDFobject=\count138
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
 \everyMPtoPDFconversion=\toks36
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
@@ -754,66 +758,66 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count139
+\c@lstlisting=\count140
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <74.3> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 64.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <51.6> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 66.
-LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 67.
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <35.83> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 66.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 66.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <29.86> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 66.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 78.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 67.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 79.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 73--80
+Underfull \hbox (badness 10000) in paragraph at lines 74--81
 
  []
 
 <figures/logo.png, id=1, 273.02pt x 168.63pt>
 File: figures/logo.png Graphic file (type png)
  <use figures/logo.png>
-Package pdftex.def Info: figures/logo.png used on input line 83.
+Package pdftex.def Info: figures/logo.png used on input line 84.
 (pdftex.def)             Requested size: 654.41338pt x 404.22363pt.
 
-Overfull \hbox (66.1223pt too wide) in paragraph at lines 83--84
+Overfull \hbox (66.1223pt too wide) in paragraph at lines 84--85
 [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 107.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 108.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <29.86> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 108.
 
 <figures/image_ex.pdf, id=3, 2529.45pt x 722.7pt>
 File: figures/image_ex.pdf Graphic file (type pdf)
  <use figures/image_ex.pdf>
-Package pdftex.def Info: figures/image_ex.pdf used on input line 115.
+Package pdftex.def Info: figures/image_ex.pdf used on input line 116.
 (pdftex.def)             Requested size: 965.4097pt x 275.83084pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 117.
 
 <figures/seg.pdf, id=4, 2890.8pt x 722.7pt>
 File: figures/seg.pdf Graphic file (type pdf)
  <use figures/seg.pdf>
-Package pdftex.def Info: figures/seg.pdf used on input line 122.
+Package pdftex.def Info: figures/seg.pdf used on input line 123.
 (pdftex.def)             Requested size: 965.4097pt x 241.34785pt.
 
 <figures/ln_example_higherorder_poset.pdf, id=5, 346.29375pt x 108.405pt>
@@ -821,22 +825,23 @@ File: figures/ln_example_higherorder_poset.pdf Graphic file (type pdf)
 
 <use figures/ln_example_higherorder_poset.pdf>
 Package pdftex.def Info: figures/ln_example_higherorder_poset.pdf used on input
- line 138.
+ line 139.
 (pdftex.def)             Requested size: 965.4097pt x 302.2516pt.
 
-<figures/procbysubject.pdf, id=6, 2168.1pt x 1084.05pt>
+<figures/procbysubject.pdf, id=6, 2890.8pt x 1084.05pt>
 File: figures/procbysubject.pdf Graphic file (type pdf)
 
 <use figures/procbysubject.pdf>
-Package pdftex.def Info: figures/procbysubject.pdf used on input line 179.
-(pdftex.def)             Requested size: 965.4097pt x 482.70676pt.
+Package pdftex.def Info: figures/procbysubject.pdf used on input line 180.
+(pdftex.def)             Requested size: 965.4097pt x 362.02179pt.
 
-<figures/combined.pdf, id=7, 867.24pt x 433.62pt>
+<figures/combined.pdf, id=7, 1084.05pt x 433.62pt>
 File: figures/combined.pdf Graphic file (type pdf)
  <use figures/combined.pdf>
-Package pdftex.def Info: figures/combined.pdf used on input line 185.
-(pdftex.def)             Requested size: 965.4097pt x 482.7266pt.
+Package pdftex.def Info: figures/combined.pdf used on input line 186.
+(pdftex.def)             Requested size: 965.4097pt x 386.17863pt.
 
+(./conference_poster_5.bbl)
 Overfull \vbox (1.5967pt too high) has occurred while \output is active []
 
 
@@ -848,13 +853,13 @@ map/pdftex.map} <./figures/logo.png> <./figures/image_ex.pdf> <./figures/seg.pd
 f> <./figures/ln_example_higherorder_poset.pdf> <./figures/procbysubject.pdf> <
 ./figures/combined.pdf>] (./conference_poster_5.aux) ) 
 Here is how much of TeX's memory you used:
- 7028 strings out of 493013
- 100094 string characters out of 6133342
- 203116 words of memory out of 5000000
- 10424 multiletter control sequences out of 15000+600000
- 61605 words of font info for 107 fonts, out of 8000000 for 9000
+ 7334 strings out of 493013
+ 103684 string characters out of 6133342
+ 212669 words of memory out of 5000000
+ 10722 multiletter control sequences out of 15000+600000
+ 64453 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,21n,39p,647b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,21n,39p,838b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/
 texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/font
 s/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts
@@ -865,7 +870,7 @@ e1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_poster_5.pdf (1 page, 2003676 bytes).
+Output written on conference_poster_5.pdf (1 page, 2012215 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream

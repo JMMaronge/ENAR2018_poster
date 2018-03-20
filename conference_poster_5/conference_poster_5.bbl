@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+
+\bibitem{Muschelli:2017aa}
+John Muschelli, Elizabeth~M Sweeney, Natalie~L Ullman, Paul Vespa, Daniel~F
+  Hanley, and Ciprian~M Crainiceanu.
+\newblock Pitchperfect: Primary intracranial hemorrhage probability estimation
+  using random forests on ct.
+\newblock {\em NeuroImage : Clinical}, 14:379--390, 2017.
+
+\bibitem{Zipunnikov:2011aa}
+Vadim Zipunnikov, Brian Caffo, David~M. Yousem, Christos Davatzikos, Brian~S.
+  Schwartz, and Ciprian Crainiceanu.
+\newblock Multilevel functional principal component analysis for
+  high-dimensional data.
+\newblock {\em J Comput Graph Stat.}, 20(4):852--873, 2011.
+
+\end{thebibliography}

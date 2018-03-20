@@ -1,0 +1,46 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+%% Created for maronge at 2018-03-19 23:27:26 -0500 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@article{Muschelli:2017aa,
+	Abstract = {INTRODUCTION: Intracerebral hemorrhage (ICH), where a blood vessel ruptures into areas of the brain, accounts for approximately 10--15{\%} of all strokes. X-ray computed tomography (CT) scanning is largely used to assess the location and volume of these hemorrhages. Manual segmentation of the CT scan using planimetry by an expert reader is the gold standard for volume estimation, but is time-consuming and has within- and across-reader variability. We propose a fully automated segmentation approach using a random forest algorithm with features extracted from X-ray computed tomography (CT) scans. METHODS: The Minimally Invasive Surgery plus rt-PA in ICH Evacuation (MISTIE) trial was a multi-site Phase II clinical trial that tested the safety of hemorrhage removal using recombinant-tissue plasminogen activator (rt-PA). For this analysis, we use 112 baseline CT scans from patients enrolled in the MISTE trial, one CT scan per patient. ICH was manually segmented on these CT scans by expert readers. We derived a set of imaging predictors from each scan. Using 10 randomly-selected scans, we used a first-pass voxel selection procedure based on quantiles of a set of predictors and then built 4 models estimating the voxel-level probability of ICH. The models used were: 1) logistic regression, 2) logistic regression with a penalty on the model parameters using LASSO, 3) a generalized additive model (GAM) and 4) a random forest classifier. The remaining 102 scans were used for model validation.For each validation scan, the model predicted the probability of ICH at each voxel. These voxel-level probabilities were then thresholded to produce binary segmentations of the hemorrhage. These masks were compared to the manual segmentations using the Dice Similarity Index (DSI) and the correlation of hemorrhage volume of between the two segmentations. We tested equality of median DSI using the Kruskal-Wallis test across the 4 models. We tested equality of the median DSI from sets of 2 models using a Wilcoxon signed-rank test. RESULTS: All results presented are for the 102 scans in the validation set. The median DSI for each model was: 0.89 (logistic), 0.885 (LASSO), 0.88 (GAM), and 0.899 (random forest). Using the random forest results in a slightly higher median DSI compared to the other models. After Bonferroni correction, the hypothesis of equality of median DSI was rejected only when comparing the random forest DSI to the DSI from the logistic (p < 0.001), LASSO (p < 0.001), or GAM (p < 0.001) models. In practical terms the difference between the random forest and the logistic regression is quite small. The correlation (95{\%} CI) between the volume from manual segmentation and the predicted volume was 0.93 (0.9,0.95) for the random forest model. These results indicate that random forest approach can achieve accurate segmentation of ICH in a population of patients from a variety of imaging centers. We provide an R package (https://github.com/muschellij2/ichseg) and a Shiny R application online (http://johnmuschelli.com/ich{\_}segment{\_}all.html) for implementing and testing the proposed approach.},
+	An = {PMC5328741},
+	Author = {Muschelli, John and Sweeney, Elizabeth M and Ullman, Natalie L and Vespa, Paul and Hanley, Daniel F and Crainiceanu, Ciprian M},
+	Date-Added = {2017-10-06 01:57:30 +0000},
+	Date-Modified = {2017-10-06 01:57:30 +0000},
+	Db = {PMC},
+	Doi = {10.1016/j.nicl.2017.02.007},
+	Isbn = {2213-1582},
+	J1 = {Neuroimage Clin},
+	Journal = {NeuroImage : Clinical},
+	Pages = {379--390},
+	Publisher = {Elsevier},
+	Title = {PItcHPERFeCT: Primary Intracranial Hemorrhage Probability Estimation using Random Forests on CT},
+	Ty = {JOUR},
+	U1 = {S2213-1582(17)30041-4{$[$}PII{$]$}; 28275541{$[$}pmid{$]$}},
+	Url = {http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5328741/},
+	Volume = {14},
+	Year = {2017},
+	Year1 = {2017/02/15},
+	Year2 = {2016/08/31/received},
+	Year3 = {2016/12/20/revised},
+	Year4 = {2017/02/09/accepted},
+	Bdsk-Url-1 = {http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5328741/},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1016/j.nicl.2017.02.007}}
+
+@article{Zipunnikov:2011aa,
+	Author = {Zipunnikov, Vadim and Caffo, Brian and Yousem, David M. and Davatzikos, Christos and Schwartz, Brian S. and Crainiceanu, Ciprian},
+	Date-Added = {2016-08-31 16:31:07 +0000},
+	Date-Modified = {2016-08-31 16:36:42 +0000},
+	Journal = {J Comput Graph Stat.},
+	Number = {4},
+	Pages = {852-873},
+	Title = {Multilevel Functional Principal Component Analysis for High-Dimensional Data},
+	Volume = {20},
+	Year = {2011}}
