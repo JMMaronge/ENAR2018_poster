@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.22)  19 MAR 2018 23:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.22)  20 MAR 2018 11:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -825,23 +825,26 @@ File: figures/ln_example_higherorder_poset.pdf Graphic file (type pdf)
 
 <use figures/ln_example_higherorder_poset.pdf>
 Package pdftex.def Info: figures/ln_example_higherorder_poset.pdf used on input
- line 139.
+ line 138.
 (pdftex.def)             Requested size: 965.4097pt x 302.2516pt.
 
-<figures/procbysubject.pdf, id=6, 2890.8pt x 1084.05pt>
+<figures/procbysubject.pdf, id=6, 1084.05pt x 433.62pt>
 File: figures/procbysubject.pdf Graphic file (type pdf)
 
 <use figures/procbysubject.pdf>
-Package pdftex.def Info: figures/procbysubject.pdf used on input line 180.
-(pdftex.def)             Requested size: 965.4097pt x 362.02179pt.
+Package pdftex.def Info: figures/procbysubject.pdf used on input line 179.
+(pdftex.def)             Requested size: 965.4097pt x 386.17863pt.
 
 <figures/combined.pdf, id=7, 1084.05pt x 433.62pt>
 File: figures/combined.pdf Graphic file (type pdf)
  <use figures/combined.pdf>
-Package pdftex.def Info: figures/combined.pdf used on input line 186.
+Package pdftex.def Info: figures/combined.pdf used on input line 185.
 (pdftex.def)             Requested size: 965.4097pt x 386.17863pt.
 
 (./conference_poster_5.bbl)
+Overfull \vbox (9.59895pt too high) has occurred while \output is active []
+
+
 Overfull \vbox (1.5967pt too high) has occurred while \output is active []
 
 
@@ -855,7 +858,7 @@ f> <./figures/ln_example_higherorder_poset.pdf> <./figures/procbysubject.pdf> <
 Here is how much of TeX's memory you used:
  7334 strings out of 493013
  103684 string characters out of 6133342
- 212669 words of memory out of 5000000
+ 214669 words of memory out of 5000000
  10722 multiletter control sequences out of 15000+600000
  64453 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -870,7 +873,7 @@ e1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_poster_5.pdf (1 page, 2012226 bytes).
+Output written on conference_poster_5.pdf (1 page, 1981772 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream

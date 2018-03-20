@@ -129,7 +129,6 @@ Website: \texttt{https://jmmaronge.github.io}
 \item Describe and quantify the main directions of variation.
 \item Use these directions of variation to improve segmentation and studies of association with health outcomes.
 \end{enumerate}
-
 %----------------------------------------------------------------------------------------
 %	MATERIALS AND METHODS
 %----------------------------------------------------------------------------------------
@@ -149,13 +148,13 @@ X_{ij} = &(\underbrace{0.34, 0.58, \ldots, -1.97}_{\text{\normalfont 1st Order}}
 \noindent This gives the $j$th row for subject $i$. If we are interested in considering additional imaging modalities, we simply add those as additional columns in the matrix. We perform this operation for each voxel for each subject and stack these vectors into a (potentially large) matrix $\mathbf{X}$. Next,
 
 \begin{itemize}
-\item  Center and scale the columns of $\mathbf{X}$
+\item  Center and scale the columns of $\mathbf{X}$.
 \item Perform PCA on centered and scaled matrix.
 \item Calculate principal component scores. 
 \item Use first $Q$ principal component scores as predictors and manual segmentation as outcome to train a model to perform segmentation of stroke lesions.
 \end{itemize}
 \large{\section*{\color{uwred}Computational Issues}}
-\noindent We have 2 challenges computationally: 1.) we need to perform PCA on a very large matrix $\mathbf{X}$, with dimensions $N \times P$, where $N>>P$, 2.) we would like to center and scale the columns of $\mathbf{X}$ before decomposing. Let $\bar{x}$ denote the vector of column means and $s$ denote the vector of column standard deviations, and $\mathbf{Y}$ denote the centered and scaled version of $\mathbf{X}$. For the PCA, all we need is the left singular values, therefore we can decompose,
+\noindent We have 2 challenges computationally: 1.) we need to perform PCA on a very large matrix $\mathbf{X}$ with dimensions $N \times P$, where $N>>P$, 2.) we would like to center and scale the columns of $\mathbf{X}$ before decomposing. Let $\bar{x}$ denote the vector of column means, $s$ denote the vector of column standard deviations, and $\mathbf{Y}$ denote the centered and scaled version of $\mathbf{X}$. For the PCA, all we need is the left singular values, therefore we can decompose,
 \begin{equation*}
 \mathbf{C} = \mathbf{Y}^T\mathbf{Y} = \mathbf{V}\mathbf{D}^T\mathbf{U}^T\mathbf{U}\mathbf{D}\mathbf{V}^T = \mathbf{V}\mathbf{D}^2\mathbf{V}^T,
 \end{equation*}
@@ -164,7 +163,7 @@ which is $P \times P$ in dimension instead of $N \times P$. We still need to cal
 \mathbf{C} = \frac{\sum_i\mathbf{X}_i^T\mathbf{X}_i-N\bar{x}\bar{x}^T}{ss^T}.
 \end{equation}
 
-\noindent Where $\mathbf{X}_i$ is the block of $\mathbf{X}$ for the $i^{th}$ subject. Each piece of equation \ref{eq:c} can be calculated by reading in one subject at a time. This is implemented in the R package MEDALS (Memory Efficient Decomposition for Analysis of Local neighborhood moments for Segmentation) and is available at https://github.com/JMMaronge/medals.
+\noindent Where $\mathbf{X}_i$ is the block of $\mathbf{X}$ for the $i$th subject. Each piece of equation \ref{eq:c} can be calculated by reading in one subject at a time. This is implemented in the R package MEDALS (Memory Efficient Decomposition for Analysis of Local neighborhood moments for Segmentation) and is available at https://github.com/JMMaronge/medals.
 \vspace{.5cm}
 
 
@@ -174,7 +173,7 @@ which is $P \times P$ in dimension instead of $N \times P$. We still need to cal
 %----------------------------------------------------------------------------------------
 
 \large{\section*{\color{uwred}Results}}
-\noindent All results shown are from the 2015 ISLES SISS Challenge. Below we show partial ROC (pROC) curves for each subject, as well as overall training and overall testing results. We also show an example of how our method performed on a particular subject.
+\noindent All results shown are from the 2015 ISLES SISS Challenge. Below we show partial ROC (pROC) curves for prediction of stroke lesions for each subject, as well as overall training and overall testing results. We also show an example of how our method performed on a particular subject.
 
 \begin{center}\vspace{.5cm}
 \includegraphics[width=1\linewidth]{procbysubject.pdf}
